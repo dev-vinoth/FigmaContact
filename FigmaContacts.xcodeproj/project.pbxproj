@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1834A5BA1EF0FF8A00DECEBA /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1834A5B91EF0FF8A00DECEBA /* Utils.swift */; };
+		1834A5BD1EF10F0C00DECEBA /* LBZSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1834A5BC1EF10F0B00DECEBA /* LBZSpinner.swift */; };
+		1834A5C01EF1351A00DECEBA /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 1834A5BF1EF1351A00DECEBA /* test.m */; };
+		1834A5C21EF1557200DECEBA /* ContactRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1834A5C11EF1557100DECEBA /* ContactRouter.swift */; };
+		1834A5C51EF1697600DECEBA /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1834A5C41EF1697600DECEBA /* Country.swift */; };
+		185870CB1EEFE7D40096D089 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185870CA1EEFE7D40096D089 /* AppDelegate.swift */; };
+		185870D01EEFE7D40096D089 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185870CE1EEFE7D40096D089 /* Main.storyboard */; };
+		185870D21EEFE7D40096D089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185870D11EEFE7D40096D089 /* Assets.xcassets */; };
+		185870D51EEFE7D40096D089 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185870D31EEFE7D40096D089 /* LaunchScreen.storyboard */; };
+		185870DF1EEFF1F40096D089 /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185870DE1EEFF1F40096D089 /* ContactListViewController.swift */; };
+		185870E31EEFF29E0096D089 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185870E21EEFF29E0096D089 /* Contacts.swift */; };
+		185870E61EEFF4D70096D089 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185870E51EEFF4D70096D089 /* ContactCell.swift */; };
+		187663991EF04C4800F14DE0 /* CreateContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187663981EF04C4800F14DE0 /* CreateContactViewController.swift */; };
+		18E8DE191EF0D26500735FA6 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E8DE181EF0D26500735FA6 /* APIManager.swift */; };
+		18E8DE1C1EF0D2B200735FA6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E8DE1B1EF0D2B200735FA6 /* Constants.swift */; };
+		C7B6D4AECDDBC7C3928DEFED /* Pods_FigmaContacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279CE779B70C5E62FC8D9BA4 /* Pods_FigmaContacts.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1834A5B91EF0FF8A00DECEBA /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Utils/Utils.swift; sourceTree = "<group>"; };
+		1834A5BC1EF10F0B00DECEBA /* LBZSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LBZSpinner.swift; path = Utils/LBZSpinner.swift; sourceTree = "<group>"; };
+		1834A5BE1EF1351900DECEBA /* FigmaContacts-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FigmaContacts-Bridging-Header.h"; sourceTree = "<group>"; };
+		1834A5BF1EF1351A00DECEBA /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		1834A5C11EF1557100DECEBA /* ContactRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactRouter.swift; path = API/Routers/ContactRouter.swift; sourceTree = "<group>"; };
+		1834A5C41EF1697600DECEBA /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Country.swift; path = DatabaseModel/Country.swift; sourceTree = "<group>"; };
+		185870C71EEFE7D40096D089 /* FigmaContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FigmaContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		185870CA1EEFE7D40096D089 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		185870CF1EEFE7D40096D089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		185870D11EEFE7D40096D089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		185870D41EEFE7D40096D089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		185870D61EEFE7D40096D089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185870DE1EEFF1F40096D089 /* ContactListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactListViewController.swift; path = "Classes&UI/Views&ViewController/ContactListViewController.swift"; sourceTree = "<group>"; };
+		185870E21EEFF29E0096D089 /* Contacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Contacts.swift; path = DatabaseModel/Contacts.swift; sourceTree = "<group>"; };
+		185870E51EEFF4D70096D089 /* ContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactCell.swift; path = "Classes&UI/Views&ViewController/ContactCell.swift"; sourceTree = "<group>"; };
+		187663981EF04C4800F14DE0 /* CreateContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateContactViewController.swift; path = "Classes&UI/Views&ViewController/CreateContactViewController.swift"; sourceTree = "<group>"; };
+		18E8DE181EF0D26500735FA6 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIManager.swift; path = API/APIManager.swift; sourceTree = "<group>"; };
+		18E8DE1B1EF0D2B200735FA6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = API/Constants.swift; sourceTree = "<group>"; };
+		279CE779B70C5E62FC8D9BA4 /* Pods_FigmaContacts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FigmaContacts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4095944F6C79236923FBC030 /* Pods-FigmaContacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FigmaContacts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FigmaContacts/Pods-FigmaContacts.debug.xcconfig"; sourceTree = "<group>"; };
+		CC5945FB984D2CDC2645CE59 /* Pods-FigmaContacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FigmaContacts.release.xcconfig"; path = "Pods/Target Support Files/Pods-FigmaContacts/Pods-FigmaContacts.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		185870C41EEFE7D40096D089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B6D4AECDDBC7C3928DEFED /* Pods_FigmaContacts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1834A5BB1EF0FFA300DECEBA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1834A5B91EF0FF8A00DECEBA /* Utils.swift */,
+				1834A5BC1EF10F0B00DECEBA /* LBZSpinner.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		1834A5C31EF1558200DECEBA /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				1834A5C11EF1557100DECEBA /* ContactRouter.swift */,
+			);
+			name = Routers;
+			sourceTree = "<group>";
+		};
+		185870BE1EEFE7D40096D089 = {
+			isa = PBXGroup;
+			children = (
+				185870C91EEFE7D40096D089 /* FigmaContacts */,
+				185870C81EEFE7D40096D089 /* Products */,
+				3342922BE4229DF545C42A66 /* Pods */,
+				7D1136F1D7F61EE04E9EF48E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		185870C81EEFE7D40096D089 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				185870C71EEFE7D40096D089 /* FigmaContacts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		185870C91EEFE7D40096D089 /* FigmaContacts */ = {
+			isa = PBXGroup;
+			children = (
+				185870CA1EEFE7D40096D089 /* AppDelegate.swift */,
+				18E8DE1A1EF0D26C00735FA6 /* API */,
+				1834A5BB1EF0FFA300DECEBA /* Utils */,
+				185870E01EEFF1F90096D089 /* ClassFiles&UI */,
+				185870E41EEFF2A20096D089 /* DatabaseModel */,
+				185870DD1EEFF1550096D089 /* Resources */,
+				185870DC1EEFF14B0096D089 /* Storyboards */,
+				185870D61EEFE7D40096D089 /* Info.plist */,
+				1834A5BF1EF1351A00DECEBA /* test.m */,
+				1834A5BE1EF1351900DECEBA /* FigmaContacts-Bridging-Header.h */,
+			);
+			path = FigmaContacts;
+			sourceTree = "<group>";
+		};
+		185870DC1EEFF14B0096D089 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				185870CE1EEFE7D40096D089 /* Main.storyboard */,
+				185870D31EEFE7D40096D089 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		185870DD1EEFF1550096D089 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				185870D11EEFE7D40096D089 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		185870E01EEFF1F90096D089 /* ClassFiles&UI */ = {
+			isa = PBXGroup;
+			children = (
+				185870E71EEFF4DF0096D089 /* View */,
+				185870E11EEFF20C0096D089 /* ViewController */,
+			);
+			name = "ClassFiles&UI";
+			sourceTree = "<group>";
+		};
+		185870E11EEFF20C0096D089 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				185870DE1EEFF1F40096D089 /* ContactListViewController.swift */,
+				187663981EF04C4800F14DE0 /* CreateContactViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		185870E41EEFF2A20096D089 /* DatabaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				185870E21EEFF29E0096D089 /* Contacts.swift */,
+				1834A5C41EF1697600DECEBA /* Country.swift */,
+			);
+			name = DatabaseModel;
+			sourceTree = "<group>";
+		};
+		185870E71EEFF4DF0096D089 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				185870E51EEFF4D70096D089 /* ContactCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		18E8DE1A1EF0D26C00735FA6 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				1834A5C31EF1558200DECEBA /* Routers */,
+				18E8DE181EF0D26500735FA6 /* APIManager.swift */,
+				18E8DE1B1EF0D2B200735FA6 /* Constants.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		3342922BE4229DF545C42A66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4095944F6C79236923FBC030 /* Pods-FigmaContacts.debug.xcconfig */,
+				CC5945FB984D2CDC2645CE59 /* Pods-FigmaContacts.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7D1136F1D7F61EE04E9EF48E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				279CE779B70C5E62FC8D9BA4 /* Pods_FigmaContacts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		185870C61EEFE7D40096D089 /* FigmaContacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185870D91EEFE7D40096D089 /* Build configuration list for PBXNativeTarget "FigmaContacts" */;
+			buildPhases = (
+				A3C48F79B338A7665FE38537 /* [CP] Check Pods Manifest.lock */,
+				185870C31EEFE7D40096D089 /* Sources */,
+				185870C41EEFE7D40096D089 /* Frameworks */,
+				185870C51EEFE7D40096D089 /* Resources */,
+				992935380A5A4C2E1F8F64D6 /* [CP] Embed Pods Frameworks */,
+				B42208A8B73E1209CFE9EF8A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FigmaContacts;
+			productName = FigmaContacts;
+			productReference = 185870C71EEFE7D40096D089 /* FigmaContacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		185870BF1EEFE7D40096D089 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Kovan;
+				TargetAttributes = {
+					185870C61EEFE7D40096D089 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = T9R9Z8ZWEM;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 185870C21EEFE7D40096D089 /* Build configuration list for PBXProject "FigmaContacts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 185870BE1EEFE7D40096D089;
+			productRefGroup = 185870C81EEFE7D40096D089 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				185870C61EEFE7D40096D089 /* FigmaContacts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		185870C51EEFE7D40096D089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185870D51EEFE7D40096D089 /* LaunchScreen.storyboard in Resources */,
+				185870D21EEFE7D40096D089 /* Assets.xcassets in Resources */,
+				185870D01EEFE7D40096D089 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		992935380A5A4C2E1F8F64D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FigmaContacts/Pods-FigmaContacts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3C48F79B338A7665FE38537 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B42208A8B73E1209CFE9EF8A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FigmaContacts/Pods-FigmaContacts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		185870C31EEFE7D40096D089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E8DE191EF0D26500735FA6 /* APIManager.swift in Sources */,
+				187663991EF04C4800F14DE0 /* CreateContactViewController.swift in Sources */,
+				1834A5C01EF1351A00DECEBA /* test.m in Sources */,
+				1834A5C21EF1557200DECEBA /* ContactRouter.swift in Sources */,
+				1834A5C51EF1697600DECEBA /* Country.swift in Sources */,
+				1834A5BD1EF10F0C00DECEBA /* LBZSpinner.swift in Sources */,
+				1834A5BA1EF0FF8A00DECEBA /* Utils.swift in Sources */,
+				185870E61EEFF4D70096D089 /* ContactCell.swift in Sources */,
+				185870CB1EEFE7D40096D089 /* AppDelegate.swift in Sources */,
+				18E8DE1C1EF0D2B200735FA6 /* Constants.swift in Sources */,
+				185870DF1EEFF1F40096D089 /* ContactListViewController.swift in Sources */,
+				185870E31EEFF29E0096D089 /* Contacts.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		185870CE1EEFE7D40096D089 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185870CF1EEFE7D40096D089 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		185870D31EEFE7D40096D089 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185870D41EEFE7D40096D089 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		185870D71EEFE7D40096D089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		185870D81EEFE7D40096D089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		185870DA1EEFE7D40096D089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4095944F6C79236923FBC030 /* Pods-FigmaContacts.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = T9R9Z8ZWEM;
+				INFOPLIST_FILE = FigmaContacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kovan.FigmaContacts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FigmaContacts/FigmaContacts-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		185870DB1EEFE7D40096D089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC5945FB984D2CDC2645CE59 /* Pods-FigmaContacts.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = T9R9Z8ZWEM;
+				INFOPLIST_FILE = FigmaContacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kovan.FigmaContacts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FigmaContacts/FigmaContacts-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		185870C21EEFE7D40096D089 /* Build configuration list for PBXProject "FigmaContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185870D71EEFE7D40096D089 /* Debug */,
+				185870D81EEFE7D40096D089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185870D91EEFE7D40096D089 /* Build configuration list for PBXNativeTarget "FigmaContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185870DA1EEFE7D40096D089 /* Debug */,
+				185870DB1EEFE7D40096D089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 185870BF1EEFE7D40096D089 /* Project object */;
+}

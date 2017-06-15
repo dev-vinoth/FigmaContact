@@ -1,0 +1,43 @@
+PODS:
+  - Alamofire (4.4.0)
+  - FaveButton (2.0.2)
+  - ImagePicker (2.1.1)
+  - IQKeyboardManagerSwift (4.0.8)
+  - libPhoneNumber-iOS (0.9.10)
+  - Material (2.6.3):
+    - Material/Core (= 2.6.3)
+  - Material/Core (2.6.3)
+  - Realm (2.7.0):
+    - Realm/Headers (= 2.7.0)
+  - Realm/Headers (2.7.0)
+  - RealmSwift (2.7.0):
+    - Realm (= 2.7.0)
+  - SwiftMessages (3.3.3)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - FaveButton (= 2.0.2)
+  - ImagePicker
+  - IQKeyboardManagerSwift (= 4.0.8)
+  - libPhoneNumber-iOS (= 0.9.10)
+  - Material
+  - RealmSwift
+  - SwiftMessages
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  FaveButton: e26f7964669b4befda7d92a6779be7b2a70ab161
+  ImagePicker: fe4c699abb56ff03994fa98d8b02e3883ee118be
+  IQKeyboardManagerSwift: c04bc9f68473823f825eb44d958fce98d921bead
+  libPhoneNumber-iOS: f721ae4d5854bce60934f9fb9b0b28e8e68913cb
+  Material: af607a7ec0e9978ef85cf189a3d8ceeeb650400f
+  Realm: 07e5d3a9e0e41d65fd5f9f05150ed6295d0f093b
+  RealmSwift: 6d06425d3900c86473c4f323bf6949b43fca22bc
+  SwiftMessages: 09cea3336e3fb63c3578983c8aac65acaa6d884a
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 531547e3d342a7bccd63147449dcc96b5db2835f
+
+COCOAPODS: 1.2.1
